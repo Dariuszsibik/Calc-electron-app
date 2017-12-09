@@ -1,0 +1,23 @@
+{
+  "name": "calc-electron-app",
+  "version": "1.0.0",
+  "description": "calc-electron-app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Dariuszsibik/Calc-electron-app.git"
+  },
+  "author": "Dariusz Sibik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dariuszsibik/Calc-electron-app/issues"
+  },
+  "homepage": "https://github.com/Dariuszsibik/Calc-electron-app#readme",
+  "devDependencies": {
+    "electron-packager": "^10.1.0",
+    "electron-prebuilt": "^1.4.13"
+  }
+}

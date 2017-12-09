@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calc">
+    <meta name="author" content="Dariusz Sibik">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>JS Kalkulator</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- moje style CSS -->
+    <link href="css/projekty.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	
+
+
+	
+
+
+
+   
+
+	
+  </head>
+
+  <body>
+	
+	<!-- ========== MAIN ========== -->
+
+	<div id="w">
+		<div class="container">
+
+
+
+<div id='calc'>
+    <form>
+      <input type='text' id='display' disabled>
+      <br>
+      <input type='button' value='C' id='keys' onclick='screen("c")'>
+      <input type='button' value='CE' id='keys' onclick='backspace()'>
+      <input type='button' value='x^2' id='keys' onclick='power()'>
+      <input type='button' value='+' id='keys' onclick='screen("+")'>
+      <br>
+      <input type='button' value='9' id='keys' onclick='screen("9")'>
+      <input type='button' value='8' id='keys' onclick='screen("8")'>
+      <input type='button' value='7' id='keys' onclick='screen("7")'>
+      <input type='button' value='-' id='keys' onclick='screen("-")'>
+      <br>
+      <input type='button' value='6' id='keys' onclick='screen("6")'>
+      <input type='button' value='5' id='keys' onclick='screen("5")'>
+      <input type='button' value='4' id='keys' onclick='screen("4")'>
+      <input type='button' value='*' id='keys' onclick='screen("*")'>
+      <br>
+      <input type='button' value='3' id='keys' onclick='screen("3")'>
+      <input type='button' value='2' id='keys' onclick='screen("2")'>
+      <input type='button' value='1' id='keys' onclick='screen("1")'>
+      <input type='button' value='/' id='keys' onclick='screen("/")'>
+      <br>
+      <input type='button' value='0' id='keys' onclick='screen("0")'>
+      <input type='button' value='.' id='keys' onclick='screen(".")'>
+      <input type='button' value='=' id='equal' onclick='answer()'>
+
+    </form>
+    
+  </div>
+          
+		<div style="clear:both;"></div>
+	
+
+		</div><!-- /container -->
+	</div><!-- /w -->
+	
+	
+	
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/js/classie.js"></script>
+    <script src="js/js/bootstrap.min.js"></script>
+
+<script src="js/kalkulator.js"></script>
+
+</body>
+</html>

@@ -7,6 +7,6 @@
 #### - CSS
 
 ## Sending Feedback
-We are always open to [your feedback](https://github.com/Dariuszsibik/resume-react/issues).
+We are always open to [your feedback](https://github.com/Dariuszsibik/Calc-electron-app/issues).
 
 
